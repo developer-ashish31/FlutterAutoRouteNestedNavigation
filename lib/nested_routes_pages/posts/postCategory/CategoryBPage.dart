@@ -43,7 +43,7 @@ class CategoryBPage extends StatelessWidget {
     final router = AutoRouter.of(context);
     print("Parent Controller of CategoryBPage=> $router");
     print(
-        "Parent Routing Controller of this Route=>  ${router.parent<TabsRouter>()}");
+        "Parent Routing Controller of this Route=>  ${router.parent<StackRouter>()}");
     print("Root Route Controller=> ${router.root}");
   }
 }
